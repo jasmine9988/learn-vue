@@ -50,7 +50,7 @@
 1.工具
 > HBuilderX,  点击预览按钮， 在内置浏览器下查看vue项目引入
 
-2. Vue.js 2种引入方式
+2.Vue.js 2种引入方式
 * html文件head下通过<script>引入vue.js
 
 > <script src="vue.js"  type="text/javascript"  chartset="UTF-8"> </script>
