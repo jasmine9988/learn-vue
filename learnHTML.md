@@ -82,7 +82,9 @@ HTML 学习
   ````
  
  5. button
- 6. 表单内的相关元素分组
+ 6. 表单
+ 
+ 1）fieldset 相关元素分组
  ````
  <form>
   <fieldset>
@@ -94,3 +96,46 @@ HTML 学习
 
  ````
 ![image](https://user-images.githubusercontent.com/102239998/161372074-aba77a21-58ed-4e0e-970a-3a59b888e9f5.png)
+
+ 2) input
+ ````
+ <!--表单-->
+		<form>
+			<div>
+			花花：
+			<input type="checkbox" checked="checked" />
+			<br/>
+			小草:
+			<input type="checkbox" />	
+			</div>
+		</form>
+			<div>
+				男性：
+				<input type="radio" checked="checked" />
+				女性：
+				<input type="radio" />
+				<br/>
+			</div>
+
+			用户名：
+			<input type="text" maxlength="20" value="wcl" />
+			密码：
+			<input type="password"/>
+			<br/>
+			<input type="button" value="submit" />
+			
+			<form>
+				<select name="cars" he>
+					<option value="value1">nissan</option>
+					<option value="value1" selected="selected">benzi</option>
+				</select>
+			</form>
+		
+		 <br/>
+		  <textarea rows="10"  cols="10"> textarea</textarea>
+ ````
+
+ 
+ ![image](https://user-images.githubusercontent.com/102239998/161374182-2f7d2197-3c4d-49c2-9ca0-17124e64baa0.png)
+
+ 7.列表
