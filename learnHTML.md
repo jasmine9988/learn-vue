@@ -158,16 +158,16 @@ HTML 学习
 		</ul>	
  ````
 	
-8.链接样式表 head 标签下定义
+8.y元素指定样式 
 	
-1）链接外部样式表 
+1）链接外部样式表 head 标签下定义
 	
 	````
 	<head>	
 	<link rel="stylesheet" type="text/css" href="./css/diagnose.css" />
 	</head>		
         ````
-2) 链接内部样式表
+2) 链接内部样式 head 标签下定义
 	
 ````
 <head>	
@@ -178,6 +178,11 @@ HTML 学习
 </style>
 </head>	
 ````
+3）标签 单独定义样式
+	
+````
+	<div style="padding-top: 1px; padding-bottom: 1px;"> test </div>
+````	
 	
 	
 
