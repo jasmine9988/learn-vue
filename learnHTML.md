@@ -166,14 +166,15 @@ HTML 学习
 	<link rel="stylesheet" type="text/css" href="./css/diagnose.css" />
         ````
 2) 链接内部样式表
-	````
-		<style type="text/css">
-		h2 {
-			color:cornflowerblue;
-		}
-		</style>
 	
-	````
+````
+<style type="text/css">
+       h2 {
+	color:cornflowerblue;
+	}
+</style>
+	
+````
 	
 	
 
