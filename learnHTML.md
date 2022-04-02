@@ -144,7 +144,7 @@ HTML 学习
 	
 ![image](https://user-images.githubusercontent.com/102239998/161374612-18bad480-b5e3-46a0-b1f8-6fd3ad99d401.png)	
 	
-        ````
+ ````
 		<h4>一个无序列表：</h4>
 		<ol type="1">
 			<li>apple</li>
@@ -156,8 +156,7 @@ HTML 学习
 			<li>water</ol>
 			<li>juice</ol>
 		</ul>	
-	
-	````
+ ````
 	
 
 
