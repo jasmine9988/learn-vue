@@ -82,9 +82,8 @@ HTML 学习
   ````
  
  5. button
- 6.
+ 6. 表单内的相关元素分组
  ````
- 表单内的相关元素分组
  <form>
   <fieldset>
     <legend>health information</legend>
