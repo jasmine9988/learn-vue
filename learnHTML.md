@@ -10,7 +10,8 @@ HTML 学习
 |----|----|----|----|
 |2022-04-01 |1. html中 div p h3的关系 | 1.百度查询 学多了自然知道  每个公司规范不同https://q.cnblogs.com/q/82362/ ||
 |2022-04-01 |1. html中 不同元素的不同属性 发现并不是有些属性 某些元素没有 为什么 |||
-|2022-04-02 |1. html中 一个目录下不能出现多个html文件？ 跳转链接拼接到上一个地址后面了 ![image](https://user-images.githubusercontent.com/102239998/161368475-e888dc81-4994-43f9-acf1-fff73e80bd30.png) |||
+|2022-04-02 |1. html中 一个目录下不能出现多个html文件？ 跳转链接拼接到上一个地址后面了 ![image](https://user-images.githubusercontent.com/102239998/161368475-e888dc81-4994-43f9-acf1-fff73e80bd30.png) |能出现  和多个html无关  因为未定义http协议||
+|2022-04-02 |2.  <basefont> 标签不支持使用了？||
 
 
 
@@ -50,3 +51,7 @@ HTML 学习
 使用 <base> 标签可以改变这一点。浏览器随后将不再使用当前文档的 URL，而使用指定的基本 URL 来解析所有的相对 URL。这其中包括 <a>、<img>、<link>、<form> 标签中的 URL。
 
  需要操作下
+ 
+
+  
+  3. <blockquote> 与 </blockquote>   支持内容缩进
