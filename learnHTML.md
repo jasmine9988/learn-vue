@@ -158,22 +158,25 @@ HTML 学习
 		</ul>	
  ````
 	
-8.链接样式表
+8.链接样式表 head 标签下定义
 	
-1）链接外部样式表 head 标签下定义
+1）链接外部样式表 
 	
 	````
+	<head>	
 	<link rel="stylesheet" type="text/css" href="./css/diagnose.css" />
+	</head>		
         ````
 2) 链接内部样式表
 	
 ````
+<head>	
 <style type="text/css">
        h2 {
 	color:cornflowerblue;
 	}
 </style>
-	
+</head>	
 ````
 	
 	
