@@ -75,9 +75,10 @@ HTML 学习
  <blockquote> 与 </blockquote>   块引用   支持内容缩进  <q>和</q> 短内容引用
  ````
 
- 
- 4. ````
+ 4. 
+ ````
     canvas.getContext('2d')  为画布提供环境   暂只支持2D的图
     canvas  画矢量图 拥有基于javascript的API
-   ````
+  ````
+ 
  5. button
