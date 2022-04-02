@@ -82,3 +82,18 @@ HTML 学习
   ````
  
  5. button
+ 6.
+ ````
+ 表单内的相关元素分组
+ <form>
+  <fieldset>
+    <legend>health information</legend>
+    height: <input type="text" />
+    weight: <input type="text" />
+  </fieldset>
+</form>
+ 
+ ![image](https://user-images.githubusercontent.com/102239998/161372074-aba77a21-58ed-4e0e-970a-3a59b888e9f5.png)
+
+ 
+ ````
