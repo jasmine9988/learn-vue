@@ -139,3 +139,23 @@ HTML 学习
  ![image](https://user-images.githubusercontent.com/102239998/161374182-2f7d2197-3c4d-49c2-9ca0-17124e64baa0.png)
 
  7.列表
+````
+		<h4>一个无序列表：</h4>
+		<ol type="1">
+			<li>apple</li>
+			<li>pear</li>
+		</ol>
+		
+		<h4>一个有序列表：</h4>
+		<ul type="circle">
+			<li>water</ol>
+			<li>juice</ol>
+		</ul>	
+	
+	````
+	
+	1) ol type属性支持的值：A/a/I/i/1
+	2) ul type属性支持的值：disc/circle/square
+
+	
+![image](https://user-images.githubusercontent.com/102239998/161374612-18bad480-b5e3-46a0-b1f8-6fd3ad99d401.png)
