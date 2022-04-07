@@ -20,3 +20,20 @@
 |vue|不同方法使用 浏览一遍 把示例 都写一遍|
 |html|看一遍 知道在哪用|
 |css|看一遍 知道在哪用|
+
+
+
+
+项目：http://git.patsnap.com/core-product/frontend/f-account
+
+git 学习：（从入门到进阶/放弃）
+
+1，https://www.liaoxuefeng.com/wiki/896043488029600
+2，https://marklodato.github.io/visual-git-guide/index-zh-cn.html
+3，https://blog.yorkxin.org/posts/git-rebase.html
+4，https://fann.im/blog/2012/03/12/git-flow-notes/
+
+vue 学习：
+
+1， 教程：https://cn.vuejs.org/v2/guide/
+2，https://vuejs.org/v2/examples/index.html示例：https://cn.vuejs.org/v2/examples/
