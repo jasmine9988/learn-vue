@@ -26,13 +26,13 @@ CSS 学习
  1. 元素的间距
     1）外边距 margin   元素与外部元素之间的上下左右间距
     2）内边距 padding  元素内部上下左右间距
-    背景色 background-color
+    3)背景色 background-color
  2. 字体属性
     1）字体 font
     2）字体大小 font-size
     3）字体颜色 color
  3. 表格的属性
-    1) 长宽 width
+    1)长宽 width
     2）边框 border：1px solid red  宽度/样式/颜色
     3）边框 border-collapse:collapse; 单个线
  
