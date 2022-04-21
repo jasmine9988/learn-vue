@@ -42,10 +42,10 @@ vue 学习：
 目标拆解
 =================
 ||目标细化|截止日期|状态|
-|----|----|----|
+|----|----|----|----|
 |目标1|https://account.zhihuiya.com/diagnose/ 使用html和css实现静态网页 不使用vue|4.30|
-|1.1| body||
-|1.2| header 元素完成|4.22|
+|1.1| body|4.24|Doing|
+|1.2| header 元素完成|4.26|Doing|
 |目标2|实现网页的过程中把HTML看2遍|4.30|Doing|
 |2.1|HTML看1遍|3.30|Done|
 |2.2|HTML第2遍|4.30|Not Start|
