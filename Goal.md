@@ -37,3 +37,22 @@ vue 学习：
 
 1， 教程：https://cn.vuejs.org/v2/guide/
 2，https://vuejs.org/v2/examples/index.html示例：https://cn.vuejs.org/v2/examples/
+
+
+目标拆解
+=================
+||目标细化|截止日期|状态|
+|----|----|----|
+|目标1|https://account.zhihuiya.com/diagnose/ 使用html和css实现静态网页 不使用vue|4.30|
+|1.1| body||
+|1.2| header 元素完成|4.22|
+|目标2|实现网页的过程中把HTML看2遍|4.30|Doing|
+|2.1|HTML看1遍|3.30|Done|
+|2.2|HTML第2遍|4.30|Not Start|
+|目标3|实现网页的过程中把CSS看2遍|4.30|Doing|
+|3.1|HTML看1遍并总结|4.21|Done|
+|3.2|HTML第2遍并总结|4.30|Not Start|
+|目标4|github|5.15|Not Start|
+
+
+
