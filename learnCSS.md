@@ -26,6 +26,9 @@ CSS 学习
  1. 元素的间距
     1）外边距 margin   元素与外部元素之间的上下左右间距
     2）内边距 padding  元素内部上下左右间距
+    3）行间距 line-height
+    4）词间距 letter-spacing
+    5）字符间距 word-spacing
     3)背景色 background-color
  2. 字体属性
     1）字体 font
