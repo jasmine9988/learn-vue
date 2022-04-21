@@ -50,9 +50,11 @@ vue 学习：
 |2.1|HTML看1遍|3.30|Done|
 |2.2|HTML第2遍|4.30|Not Start|
 |目标3|实现网页的过程中把CSS看2遍|4.30|Doing|
-|3.1|HTML看1遍并总结|4.21|Done|
-|3.2|HTML第2遍并总结|4.30|Not Start|
-|目标4|github|5.15|Not Start|
+|3.1|CSS看1遍并总结|4.21|Done|
+|3.2|CSS第2遍并总结|4.30|Not Start|
+|目标4|github 学一遍并使用|5.15|Not Start|
+|目标5|VUE 学一遍并使用|5.30|Doing|
+
 
 
 
