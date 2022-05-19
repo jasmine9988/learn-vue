@@ -34,10 +34,27 @@ https://blog.csdn.net/CS13477062349/article/details/79269732
 
 属性  
 1) flex-direction   盒子内容的方向
-值   row (沿主轴的方向)  
-     row-reverse (主轴的反方向)  
+值   row    盒子中的元素 按照主轴的方向线上
+     row-reverse 盒子中的元素按照主轴的反方向显示  元素整个调过来
      cloumn （交叉轴的方向即垂直显示） 
      cloumn-reverse（交叉轴的反方向）
+     
+    
+2）flex-wrap
+使用此属性的前提条件   
+第一：盒子定义了宽度，盒子内的元素定义了宽度    第二：盒子内元素的宽度总和 大于 盒子的宽度
+值 -wrap 盒子内容元素换行显示
+   -nowrap 盒子内元素不换行  溢出显示
+
+
+
+
+
+
+
+
+
+
 2) justify-content  水平对齐        >>justify的翻译 是每行排齐
 值   center (居中)
      flex-start (显示在主轴起点)
