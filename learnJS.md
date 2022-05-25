@@ -29,7 +29,7 @@ Javascript 学习
  1. 什么是javascript? 作用是啥
  是脚本语言  作用让页面发生动态交互
  2. 如何使用javascript?
-  1) 可以直接在html文件中使用  放在<head>或者<body>
+  1) 可以直接在html文件中使用  放在html文件下的head或者body
   2) 可以链接外部文件使用    创建js文件夹  添加js文件    在使用的标签内 引入
    ````
        <script src="js/main.js"></script>
@@ -45,7 +45,8 @@ Javascript 学习
   2) console.log()
   3) document.write()
   4) document.geyElementById().innerHTML
-  
+  ````
+	
   5. 常量的定义   写啥值 常量就赋对应的数值类型
   
   ````
