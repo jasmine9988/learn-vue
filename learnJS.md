@@ -36,7 +36,7 @@ Javascript 学习
    ````
        <script src="js/main.js"></script>
    ````
- 3. javascript 有内置的API和外部API,以下是内部的
+ 3. javascript 有浏览器内置的API和外部API,以下是内部的
   1) DOM API  改变html的属性和交互
   2）Canvas/ webgL   画2d/3d图形
   3）地理API
