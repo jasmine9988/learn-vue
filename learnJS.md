@@ -39,12 +39,12 @@ Javascript 学习
   2）Canvas/ webgL   画2d/3d图形
   3）地理API
 
- 4.向浏览器输入的方法
+ 4.javascript通过以下方式输出数据
   ````
   1) window.alert()
-  2) console.log()
-  3) document.write()
-  4) document.geyElementById().innerHTML
+  2) console.log() 向浏览器输出
+  3) document.write() 写入html文档
+  4) document.geyElementById().innerHTML 写入html元素
   ````
 	
   5. 常量的定义   写啥值 常量就赋对应的数值类型
