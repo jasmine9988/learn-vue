@@ -93,3 +93,35 @@ Javascript 学习
 		  document.getElementById("paramRange").innerHTML=limitparam;//局部变量不可调用
          <\script>
 ````
+
+4.数据类型
+1）bool   值为ture  false
+2）数组   以下三种方式
+````
+第一种
+var array1=new array();
+array1[0]="test";
+array2[1]="test2";
+
+第二种
+ var array2=["test1","test2"];
+ 
+第三种
+ var array2=new Array("test1","test2");
+
+````
+3) 对象 
+````
+  var duixiang={age:1,name:wcl};// key:value  花括号
+  
+  var duixiang2={fullattr:function(){
+                          return duixiang.age+duixiang.name;
+			  }
+		}
+		
+ document.getElementById("test").innerHTML=duixiang2.fullattr;//返回对象定义的方法 作为字符串
+		  
+ document.getElementById("test").innerHTML=duixiang2.fullattr();//返回对象方法里的内容		
+		
+			  
+````
