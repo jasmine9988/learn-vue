@@ -34,8 +34,11 @@ Javascript 学习
   1) 可以直接在html文件中使用  放在html文件下的head或者body
   2) 可以链接外部文件使用    创建js文件夹  添加js文件    在使用的标签内 引入
    ````
-       <script src="js/main.js"></script>
+       <script src="js/main.js" ></script>
    ````
+   3）外链js文件 要注意调用策略 
+   当多个js文件  相互独立 不依赖时 使用async
+   当多个js文件 中有函数调用时   使用defer   要把依赖的文件 放在最上方
  3. javascript 有浏览器内置的API和外部API,以下是内部的
   1) DOM API  改变html的属性和交互
   2）Canvas/ webgL   画2d/3d图形
