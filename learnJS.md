@@ -112,6 +112,8 @@ array2[1]="test2";
 ````
 3) 对象 
 ````
+<p id="test">test</p>
+<script>
   var duixiang={age:1,name:wcl};// key:value  花括号
   
   var duixiang2={fullattr:function(){
@@ -122,6 +124,6 @@ array2[1]="test2";
  document.getElementById("test").innerHTML=duixiang2.fullattr;//返回对象定义的方法 作为字符串
 		  
  document.getElementById("test").innerHTML=duixiang2.fullattr();//返回对象方法里的内容		
-		
+</script>		
 			  
 ````
