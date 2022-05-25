@@ -66,7 +66,30 @@ Javascript 学习
   
   
   
- 2022-05-25
+ 2022-05-25  变量/常量/数据类型/变量作用域
 -----------------
 1.区分大小写
 2.代码逐行执行
+3.变量
+1）通过typeof 可以得到变量对应的数据类型
+````
+  var cars="test string";
+  console.log(typeof cars);
+
+````
+2）作用域
+````
+
+        <p id="paramGlobal">全局变量</p>
+	<p id="paramRange">局部变量</p>
+          <script>
+		  function testFunction(a,b){
+			  var limitparam="test limit param";//函数内使用var声明了 变成局部变量 外部不可使用
+			  globalparam="test global param";//函数内未使用var声明   即是全局变量 外部可使用
+			  return a*b;
+		  }
+		  
+		  document.getElementById("paramGlobal").innerHTML=globalparam;//全局变量 可调用
+		  document.getElementById("paramRange").innerHTML=limitparam;//局部变量不可调用
+         <\script>
+````
