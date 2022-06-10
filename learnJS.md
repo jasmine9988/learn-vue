@@ -31,7 +31,7 @@ JS基本语法
 
  2022-05-24
 -----------------
- 1.什么是javascript? 作用是啥
+ 1. 什么是javascript? 作用是啥
  是脚本语言  作用让页面发生动态交互
  2. 如何使用javascript?
   1) 可以直接在html文件中使用  放在html文件下的head或者body
@@ -47,7 +47,7 @@ JS基本语法
   2）Canvas/ webgL   画2d/3d图形
   3）地理API
 
- 4.javascript通过以下方式输出数据
+ 4. javascript通过以下方式输出数据
   ````
   1) window.alert()
   2) console.log() 向浏览器输出
@@ -74,9 +74,9 @@ JS基本语法
   
  2022-05-25  变量/常量/数据类型/变量作用域
 -----------------
-1.区分大小写
-2.代码逐行执行
-3.变量
+1. 区分大小写
+2. 代码逐行执行
+3. 变量
 1）通过typeof 可以得到变量对应的数据类型
 ````
   var cars="test string";
@@ -176,10 +176,10 @@ getElementByTagName
 3.3 通过类名
 getElementsByClassName
 
-4.改变html
+4. 改变html
 1）改变内容  innerHTML
 2) 改变属性  attr
 
-5.改变CSS
+5. 改变CSS
 
-6.对HTML事件作出反应
+6. 对HTML事件作出反应
