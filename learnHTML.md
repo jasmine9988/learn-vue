@@ -162,6 +162,7 @@ HTML 学习
 	
 8.元素指定样式 
 	
+	
 1）链接外部样式表 head 标签下定义
 	
 	````
@@ -186,6 +187,13 @@ HTML 学习
 	<div style="padding-top: 1px; padding-bottom: 1px;"> test </div>
 ````	
 	
+	
+	
+ 2022-06-15  HTML 事件属性
+-----------------
+1. button   onclick()  ondblclick()
+2. 表单input   onfucs()
+3. 鼠标点击事件
 	
 
 	
