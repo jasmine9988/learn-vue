@@ -138,8 +138,19 @@ array2[1]="test2";
 https://blog.csdn.net/jhfvuyhgui/article/details/123971726
 
 4.4 typeof 判断数据类型  引用数据类型使用typeof只能判断出是object，不能知道具体的对象，
-    instanceof 判断引用数据类型
+    instanceof 判断左边的变量是否是右边的实例对象
+    
+````
+  a="test string";
+  console.log(typeof a);
+  
+  vars b=new Array();
+  console.log(b instanceof Array);
 
+
+`````
+
+https://blog.csdn.net/qq_41903105/article/details/88372010
  2022-05-26  事件-break
 -----------------
 
