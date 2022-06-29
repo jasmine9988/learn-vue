@@ -68,13 +68,13 @@ JS基本语法
 		  e={"firstName":"wcl","secondName":"ls"};
   ````
 3. 变量
-1）声明变量的方式
+3.1 声明变量的方式
 第一种 使用关键词 var   可以用来声明局部和全局变量
 第二种 使用关键词 let   声明块作用域的局部变量
 第三种 变量直接赋值  a=3;  在函数外使用此方式 会产生一个全局变量
 
-2）变量赋值
->>>使用let/var声明时 不赋值，那么其值为undefined
+3.2 变量赋值
+1) 使用let/var声明时 不赋值，那么其值为undefined
 如果一个变量未声明 直接访问  会抛引用错误 此变量未定义
 undefined 值在布尔类型环境中会被当作 false
 数值类型环境中 undefined 值会被转换为 NaN
@@ -84,7 +84,7 @@ var a;
 a + 2;    // 计算为 NaN
 ````
 
->>>当你对一个 null 变量求值时，
+2) 当你对一个 null 变量求值时，
 空值 null 在数值类型环境中会被当作 0 来对待
 而布尔类型环境中会被当作 false
 
@@ -94,7 +94,8 @@ console.log(n * 32); // 在控制台中会显示 0
 ````
 
 
-2）作用域
+3.3 作用域
+1) 在函数之外声明的变量 是全局变量； 在函数内声明变量添加var关键词 是局部变量，否则是全局变量
 ````
 
         <p id="paramGlobal">全局变量</p>
@@ -110,6 +111,28 @@ console.log(n * 32); // 在控制台中会显示 0
 		  document.getElementById("paramRange").innerHTML=limitparam;//局部变量不可调用
          <\script>
 ````
+2）在语句块中用var声明的变量 是全局的；但用let声明 却访问不到
+
+什么是语句块 if语句/循环语句
+
+````
+if (true) {
+  var x = 5;
+}
+console.log(x); // 5
+
+
+if (true) {
+  let y = 5;
+}
+console.log(y); // ReferenceError: y 没有被声明
+````
+
+3.4 变量提升
+
+
+
+
 
 4. 数据类型
 4.1 基本数据类型 ：数字 字符串 布尔  null  undefined symbol  （没有字符概念）
