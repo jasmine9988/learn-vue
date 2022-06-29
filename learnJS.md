@@ -137,6 +137,9 @@ array2[1]="test2";
 引用数据类型  在变量中存储的是地址，栈中存储其内存地址  值存在堆中 存储空间大  读写速度慢  需要程序员分配释放
 https://blog.csdn.net/jhfvuyhgui/article/details/123971726
 
+4.4 typeof 判断数据类型  引用数据类型使用typeof只能判断出是object，不能知道具体的对象，
+    instanceof 判断引用数据类型
+
  2022-05-26  事件-break
 -----------------
 
@@ -148,7 +151,9 @@ https://blog.csdn.net/jhfvuyhgui/article/details/123971726
 
 JS 函数/类/库
  =================
-
+运算符
+ 等于和不等于    === ！==         
+三元运算符  a?b:c    满足条件a则得到b，否则得出c
 
 
 
