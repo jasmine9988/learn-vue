@@ -39,7 +39,8 @@ CSS 学习
     2）边框 border：1px solid red  宽度/样式/颜色
     3）边框 border-collapse:collapse; 单个线
  
-
+4. display:none  直接不显示了 所占的空间不在 影响其他元素布局
+  visibility:hidden    视觉上看不到 但其所占的空间还在 不影响其他元素布局
 
 
  
