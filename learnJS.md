@@ -98,7 +98,7 @@ JS基本语法
 ````
 
 4. 数据类型
-4.1 基本数据类型 ：数字 字符串 布尔  null  undefined symbol
+4.1 基本数据类型 ：数字 字符串 布尔  null  undefined symbol  （没有字符概念）
 4.2  引用数据类型：对象 数组 函数 正则和日期
 1）bool   值为ture  false
 2）数组   以下三种方式
