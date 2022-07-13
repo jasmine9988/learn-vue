@@ -233,3 +233,19 @@ getElementsByClassName
 5. 改变CSS
 
 6. 对HTML事件作出反应
+
+
+
+JS 内置对象 2022-01-17看完
+=================
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Set
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map
+
+echarts
+https://echarts.apache.org/examples/zh/index.html
+
+
+
+
