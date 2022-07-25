@@ -240,12 +240,17 @@ JS 内置对象 2022-01-17看完
 =================
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/find
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Set
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map
 
 echarts
 https://echarts.apache.org/examples/zh/index.html
 
+有个疑问 什么样的场景会用到
 
+|函数|输入内容|输出内容|注意点|
+|Object.assign(targetObj,sourceObj)|两个对象|目标对象与源对像合并的结果 相同的key会被源对象覆盖|Object是一种数据类型  O要大写  所有对象都是Object类型的实例|
+|Object.create(sourceObj)|源对象|返回目标对象 当目标对象不改变源对象的属性时 输出{}；当对源对象的属性更改 会返回一个对象包含修改的属性||
 
 
