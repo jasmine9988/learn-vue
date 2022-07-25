@@ -252,6 +252,7 @@ https://echarts.apache.org/examples/zh/index.html
 |函数|输入内容|输出内容|注意点|
 |----|----|----|----|
 |Object.assign(targetObj,sourceObj)|两个对象|目标对象与源对像合并的结果 相同的key会被源对象覆盖|Object是一种数据类型  O要大写  所有对象都是Object类型的实例|
-|Object.create(sourceObj)|源对象|返回目标对象 当目标对象不改变源对象的属性时 输出{}；当对源对象的属性更改 会返回一个对象包含修改的属性||
+|Object.create(sourceObj)|源对象|返回目标对象 当目标对象不改变源对象的属性时 输出{} 可以拿到源对象的值；当对源对象的属性更改 会返回一个对象包含修改的属性|不改变时 为何不返回和源对象一样的内容|
 
 
+![image](https://user-images.githubusercontent.com/102239998/180814871-dbc6d0bb-a956-40fe-acd6-6b171d9e84cc.png)
