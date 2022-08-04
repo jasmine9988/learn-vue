@@ -1,5 +1,6 @@
 
-
+拉取项目
+----------------------------
 
 VS打开控制台  ctrl ~
 
@@ -14,3 +15,19 @@ mpm run serve   启动项目
 1）那么删除node_modules文件夹  
 2）git clean -xdf
 3）npm install
+
+
+
+项目结构
+---------------------------
+
+
+![image](https://user-images.githubusercontent.com/102239998/182820873-b100bd09-3a8d-4b05-9f72-921348ca44d8.png)
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/102239998/182819290-4ce44427-0dd6-44be-8468-cffc7010e1e3.png)
+
+
