@@ -22,7 +22,7 @@ mpm run serve   启动项目
 ---------------------------
 
 
-![image](https://user-images.githubusercontent.com/102239998/182820873-b100bd09-3a8d-4b05-9f72-921348ca44d8.png)
+
 
 
 
