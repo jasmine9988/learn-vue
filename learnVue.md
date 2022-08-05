@@ -30,14 +30,14 @@ Vue学习
 
 2. 单文件组件内容构成
 
-> template  html标签
-v-model 用input框使用 实现数据双向绑定
-v-on 用于button按钮 绑定函数名
-v-for 同数组使用  列表元素 item 
-> script  js
-》函数 data 定义变量或常量  用于template显示或处理
+* template  html标签
+> v-model 用input框使用 实现数据双向绑定
+> v-on 用于button按钮 绑定函数名
+> v-for 同数组使用  列表元素 item 
+*  script  js
+> 函数 data 定义变量或常量  用于template显示或处理
 〉函数methods 定义方法 处理数据
-> style css
+*  style css
 
 
 2022-03-23
