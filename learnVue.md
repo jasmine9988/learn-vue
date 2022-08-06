@@ -79,6 +79,16 @@ Unmounted()
 ![image](https://user-images.githubusercontent.com/102239998/183255520-db27a47e-93ab-4cac-8924-28d0a8f21b96.png)
 
 
+3.模板中语法
+v-html  绑定data下变量中含html标签的数据
+v-bind  绑定data中的变量 从而改变标签的属性
+v-once 表示只显示一次 后续data中的数据发生改变 不再更新
+v-if 
+v-show
+
+{{}} 文本插值，花括号中的内容不能显示js语句
+
+
 2022-03-23
 -----------------
 
