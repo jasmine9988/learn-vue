@@ -47,6 +47,38 @@ Vue学习
 
 vm.$data
 
+
+2022-08-06
+--------------------
+1.生命周期函数 ：在某一时刻自动执行的函数
+> vue自带的嘛？
+> 和自己定义的函数的不同 是自动执行？
+> 什么应用场景下会用到？
+
+分析代码中是否有事件和声明周期函数
+分析代码中是否有数据绑定和组件注入
+分析代码中是否有模板 ，没有的话判断是否有innerHtml
+
+2.有哪些
+vue实例是否创建完成
+beforeCreate()  
+Created()
+内容是否渲染在页面
+beforeMount()
+Mounted()
+
+数据是否发生改变
+beforeUpdate()
+Updated()
+
+销毁实例 vue不服务dom
+beforeUnmount()
+Unmounted()
+
+
+![image](https://user-images.githubusercontent.com/102239998/183255520-db27a47e-93ab-4cac-8924-28d0a8f21b96.png)
+
+
 2022-03-23
 -----------------
 
