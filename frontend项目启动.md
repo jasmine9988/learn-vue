@@ -2,20 +2,19 @@
 拉取项目
 ----------------------------
 
-VS打开控制台  ctrl ~
+1. VS
+> VS打开控制台  ctrl ~
 
-git clone 项目
-
-npm install
+2. git
+> git clone 项目
 git branch   新建分支
 git branch -v  查看所有分支
-mpm run serve   启动项目
+> source-tree  代码管理工具
 
-source-tree  代码管理工具
 
-安装包的2种方式
+3.安装包的2种方式
 
-1.npm
+3.1.npm
 > 安装命令 npm install
 > 项目启动命令 npm run serve   要定位在package.json所在的目录
 
@@ -24,10 +23,13 @@ source-tree  代码管理工具
 2）git clean -xdf
 3）npm install
 
-2.yarn
+3.2.yarn
 > 安装命令 yarn   按照默认包的仓库安装 不要指定
 > 运行命令 yarn workspace run serve   package.json所在的目录
 
+3.3  什么时候需要重新安装
+> 依赖包发生变化
+> 代码改变
 
 项目结构
 ---------------------------
